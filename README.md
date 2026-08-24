@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Decision Tree Classifier for Diabetes Prediction
 
 ## Overview
@@ -183,3 +184,6 @@ Evaluation works
 Decision rules are generated
 Depth comparison works
 Final conclusion is present
+=======
+# decision-tree-classifier
+>>>>>>> 5ab6460c776d945936861bb410c2451c1e22be32
