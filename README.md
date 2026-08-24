@@ -48,31 +48,7 @@ The dataset contains clinical features including:
 ## Project Workflow
 
 ```text
-Dataset
-   ↓
-Data Exploration
-   ↓
-Data Quality Check
-   ↓
-Invalid Zero Handling
-   ↓
-Missing Value Imputation
-   ↓
-Train/Test Split
-   ↓
-Decision Tree Training
-   ↓
-Prediction
-   ↓
-Model Evaluation
-   ↓
-Tree Visualization
-   ↓
-Decision Rules
-   ↓
-Depth Analysis
-   ↓
-Feature Importance
+
 Decision Tree
 
 The model uses Gini impurity to evaluate candidate splits.
@@ -120,18 +96,7 @@ NumPy
 Matplotlib
 Scikit-learn
 Jupyter Notebook
-Project Structure
-decision-tree-classifier/
-│
-├── data/
-│   └── diabetes.csv
-│
-├── notebooks/
-│   └── decision_tree_diabetes.ipynb
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+
 Important Note
 
 This project is for educational purposes only.
@@ -139,51 +104,3 @@ This project is for educational purposes only.
 The model is not a clinically validated diagnostic system and should not be
 used for real medical decision-making.
 
-
----
-
-# 7. `.gitignore`
-
-Create:
-
-```text
-.gitignore
-
-Add:
-
-# Python
-__pycache__/
-*.py[cod]
-
-# Virtual environment
-.venv/
-venv/
-env/
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code
-.vscode/
-
-# OS
-.DS_Store
-Thumbs.db
-8. Test the notebook
-
-Before GitHub upload, run:
-
-VS Code → Notebook → Run All
-
-Make sure:
-
-Dataset loads
-No errors
-All graphs render
-Evaluation works
-Decision rules are generated
-Depth comparison works
-Final conclusion is present
-=======
-# decision-tree-classifier
->>>>>>> 5ab6460c776d945936861bb410c2451c1e22be32
