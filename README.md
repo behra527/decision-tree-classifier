@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Decision Tree Classifier for Diabetes Prediction
 
 ## Overview
